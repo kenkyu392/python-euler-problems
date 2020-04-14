@@ -13,5 +13,5 @@
   "python.linting.pylintEnabled": true,
   "python.linting.lintOnSave": true,
   "python.linting.pylintPath": ".venv\\Scripts\\pylint.exe",
-  "python.linting.pep8Path": ".venv\\Scripts\\pep8.exe"
+  "python.linting.pycodestylePath": ".venv\\Scripts\\pep8.exe"
 }

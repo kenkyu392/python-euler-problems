@@ -4,8 +4,7 @@
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
 if __name__ == '__main__':
-    want = 233168
-    got = 0
+    got, want = 0, 233168
     for i in range(1000):
         if i % 3 == 0 or i % 5 == 0:
             got += i
