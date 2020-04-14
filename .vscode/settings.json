@@ -1,0 +1,17 @@
+{
+  "python.venvPath": ".venv",
+  "python.pythonPath": ".venv\\Scripts\\python.exe",
+  "python.formatting.provider": "yapf",
+  "python.formatting.autopep8Args": ["--aggressive"],
+  "python.formatting.autopep8Path": ".venv\\Scripts\\autopep8.exe",
+  "python.formatting.yapfPath": ".venv\\Scripts\\yapf.exe",
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{based_on_style: google, split_before_first_argument: true, dedent_closing_brackets: true, split_before_logical_operator: true}"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintPath": ".venv\\Scripts\\pylint.exe",
+  "python.linting.pep8Path": ".venv\\Scripts\\pep8.exe"
+}
